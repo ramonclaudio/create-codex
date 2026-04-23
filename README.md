@@ -1,54 +1,45 @@
 # create-codex
 
-AGENTS.md setup that just works. Bootstrap every project with the open standard for AI coding agents. One command, zero headaches.
+[![npm](https://img.shields.io/npm/v/create-codex)](https://www.npmjs.com/package/create-codex)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-[![version](https://img.shields.io/npm/v/create-codex.svg?label=version&color=brightgreen)](https://www.npmjs.com/package/create-codex)
-[![downloads](https://img.shields.io/npm/dm/create-codex.svg?label=downloads&color=blue)](https://www.npmjs.com/package/create-codex)
-[![package size](https://img.shields.io/npm/unpacked-size/create-codex?label=package%20size&color=yellow)](https://www.npmjs.com/package/create-codex)
-[![license](https://img.shields.io/badge/license-MIT-red.svg)](https://opensource.org/licenses/MIT)
+AGENTS.md is the open standard for AI coding agent instructions, supported across Codex, Cursor, Aider, Jules, Zed, Windsurf, Continue, and 20k+ projects. I wanted one command to drop a well-tuned AGENTS.md into any project, with runtime/framework/package manager auto-detection baked in. So I built this.
 
-## Quick Start
+AGENTS.md setup that just works. Bootstrap every project with the open standard for AI coding agents. One command, zero dependencies, zero overhead.
+
+## Quick start
 
 ```bash
 npm create codex
 ```
 
-*Adds **local** AGENTS.md file to your project. ZERO dependencies, ZERO overhead.*
-
-## Installation Options
-
-### Package Managers
+## Install
 
 ```bash
 npm create codex               # npm
-pnpm create codex              # pnpm  
+pnpm create codex              # pnpm
 bun create codex               # bun
 yarn create codex              # yarn
 ```
 
-### Flags
+Flags:
 
 ```bash
-npm create codex --dry-run     # Preview files
-npm create codex --help        # All options
+npm create codex --dry-run     # preview files
+npm create codex --help        # all options
 ```
 
-### Shortcuts
+Shortcuts:
 
 ```bash
-npx create-codex                # Direct execution
-npx create-codex my-project     # Create in specific directory
+npx create-codex my-project    # create in specific directory
 ```
 
-## Programmatic Usage
-
-### Installation
+## Programmatic
 
 ```bash
 npm i create-codex
 ```
-
-### Usage
 
 ```typescript
 import { init } from 'create-codex';
@@ -56,119 +47,52 @@ import { init } from 'create-codex';
 await init('./my-project');
 ```
 
-## Features
+## What's in the box
 
-### Universal Compatibility
+### Universal compatibility
 
-- **Works everywhere**: Codex, Cursor, Aider, Jules, Zed, Windsurf, Continue, and more
-- **Open standard**: AGENTS.md is supported by 20k+ projects
-- **Zero lock-in**: One file that works with any AI coding agent
+One AGENTS.md file that any agent supporting the standard can read: Codex, Cursor, Aider, Jules, Zed, Windsurf, Continue.
 
-### Intelligent Project Detection
+### Auto-detection
 
-- **Runtime detection**: Node.js, Python, Rust, Go, Java, C/C++, TypeScript, Bun
-- **Framework detection**: React, Next.js, Vue, Angular, Svelte, Express, FastAPI
-- **Package manager detection**: npm, yarn, pnpm, bun, pip, poetry, uv
-- **Git integration**: Repository URL, branch information, user details
+- **Runtimes**: Node.js, Python, Rust, Go, Java, C/C++, TypeScript, Bun
+- **Frameworks**: React, Next.js, Vue, Angular, Svelte, Express, FastAPI
+- **Package managers**: npm, yarn, pnpm, bun, pip, poetry, uv
+- **Git**: repository URL, branch, user info
 
-### Production-Ready
+### Safety
 
-- **Atomic operations**: SHA256 verification and safe file writes
-- **Automatic backups**: Timestamped backups of existing files
-- **Template rendering**: Smart conditionals and variable substitution
+- Atomic writes with SHA256 verification
+- Timestamped backups of existing files
+- Template rendering with conditionals and variable substitution
 
-### Smart AGENTS.md Generation
+### Smart AGENTS.md output
 
-- **Setup commands**: Install, dev, build, test commands for your stack
-- **Code standards**: Language-specific best practices and conventions
-- **Development workflow**: Optimized step-by-step process
-- **Safety boundaries**: Security constraints and operational limits
-- **Project context**: Path, Git info, and environment details
+- Setup/dev/build/test commands for your stack
+- Language-specific conventions
+- Step-by-step workflow
+- Safety boundaries and operational limits
+- Project context: path, git info, environment
 
-## FAQ
+## Requirements
 
-<details>
-<summary><strong>Is it safe to run?</strong></summary>
+- Node.js 20+
+- Any AI agent that supports [AGENTS.md](https://agents.md)
 
-Yes. It only creates an AGENTS.md file, never modifies your code. Each file operation uses SHA256 checksums and creates timestamped backups.
+## What gets created
 
-```bash
-# If something goes wrong, backups are here:
-ls .create-codex-backup-*
+```
+AGENTS.md
 ```
 
-</details>
-
-<details>
-<summary><strong>How do I remove it?</strong></summary>
-
-Delete the AGENTS.md file:
+## Remove it
 
 ```bash
 rm AGENTS.md
 ```
 
 Your original code stays untouched.
-</details>
-
-<details>
-<summary><strong>What are the requirements?</strong></summary>
-
-- Node.js 20+
-- Any AI coding agent that supports AGENTS.md
-
-That's it. No global installs, no dependencies.
-</details>
-
-<details>
-<summary><strong>Does it work with my tools?</strong></summary>
-
-It auto-detects:
-
-- **Package managers**: npm, yarn, pnpm, bun, pip, poetry, uv  
-- **Languages**: JavaScript, TypeScript, Python, Go, Rust, Java, C/C++
-- **Frameworks**: React, Vue, Next.js, Express, FastAPI, etc.
-
-Can't find your tool? It falls back to sensible defaults.
-</details>
-
-<details>
-<summary><strong>What files does it create?</strong></summary>
-
-Creates 1 file:
-
-```
-AGENTS.md                   # Project-specific instructions for AI agents
-```
-
-Future versions may support additional configuration in `.codex/` directory.
-
-</details>
-
-## Security
-
-This project follows security best practices:
-
-- All dependencies are audited and kept up-to-date
-- Code is scanned with CodeQL and other security tools
-- OpenSSF Scorecard certified
-- Signed releases with build provenance
-
-Report security issues: [SECURITY.md](SECURITY.md)
-
-## Contributing
-
-Contributions welcome! Please read [SECURITY.md](SECURITY.md) first, then:
-
-1. Fork the repo
-2. Create a feature branch
-3. Run `npm run validate` before committing
-4. Submit a pull request
-
-## Links
-
-[**Issues**](https://github.com/ramonclaudio/create-codex/issues) • [**Changelog**](https://github.com/ramonclaudio/create-codex/blob/main/CHANGELOG.md) • [**AGENTS.md Docs**](https://agents.md) • [**Security**](SECURITY.md)
 
 ## License
 
-MIT © [Ramon Claudio](https://github.com/ramonclaudio)
+MIT
