@@ -4,11 +4,11 @@ type: software
 title: "create-codex"
 abstract: "AGENTS.md setup that just works. Bootstrap every project with a config file that works with most of your favorite code editors. One command, zero headaches."
 authors:
-  - given-names: "RMNCLDYO"
-    email: "hi@rmncldyo.com"
+  - given-names: "Ramon Claudio"
+    email: "hello@ramonclaudio.com"
     orcid: "https://orcid.org/0009-0008-2148-3095"
-repository-code: "https://github.com/RMNCLDYO/create-codex"
-url: "https://github.com/RMNCLDYO/create-codex"
+repository-code: "https://github.com/ramonclaudio/create-codex"
+url: "https://github.com/ramonclaudio/create-codex"
 repository-artifact: "https://www.npmjs.com/package/create-codex"
 keywords:
   - "codex"
@@ -29,6 +29,6 @@ keywords:
   - "zero-config"
   - "productivity"
 license: MIT
-license-url: "https://github.com/RMNCLDYO/create-codex/blob/main/LICENSE"
+license-url: "https://github.com/ramonclaudio/create-codex/blob/main/LICENSE"
 version: "0.1.0"
 date-released: "2025-09-07"

@@ -6,8 +6,8 @@ Thanks for using create-codex! This document explains how to get help with the p
 
 ### Community Support
 
-- **GitHub Discussions**: Ask questions and discuss ideas with the community at [GitHub Discussions](https://github.com/RMNCLDYO/create-codex/discussions)
-- **Issues**: Report bugs or request features through [GitHub Issues](https://github.com/RMNCLDYO/create-codex/issues)
+- **GitHub Discussions**: Ask questions and discuss ideas with the community at [GitHub Discussions](https://github.com/ramonclaudio/create-codex/discussions)
+- **Issues**: Report bugs or request features through [GitHub Issues](https://github.com/ramonclaudio/create-codex/issues)
 
 ### Documentation
 
@@ -45,7 +45,7 @@ Before creating an issue, please:
 
 ## Commercial Support
 
-For priority support, custom implementations, or consulting services, contact <hi@rmncldyo.com>.
+For priority support, custom implementations, or consulting services, contact <hello@ramonclaudio.com>.
 
 ## Contributing
 

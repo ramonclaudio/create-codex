@@ -31,7 +31,7 @@
   ],
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/RMNCLDYO"
+    "url": "https://github.com/sponsors/ramonclaudio"
   },
   "publishConfig": {
     "access": "public",
@@ -80,16 +80,16 @@
     "opencode",
     "phoenix"
   ],
-  "author": "RMNCLDYO <hi@rmncldyo.com>",
+  "author": "Ramon Claudio <hello@ramonclaudio.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RMNCLDYO/create-codex.git"
+    "url": "git+https://github.com/ramonclaudio/create-codex.git"
   },
   "bugs": {
-    "url": "https://github.com/RMNCLDYO/create-codex/issues"
+    "url": "https://github.com/ramonclaudio/create-codex/issues"
   },
-  "homepage": "https://github.com/RMNCLDYO/create-codex#readme",
+  "homepage": "https://github.com/ramonclaudio/create-codex#readme",
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=9.0.0"

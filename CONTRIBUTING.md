@@ -10,7 +10,7 @@
 ## Quick Start
 
 ```bash
-git clone https://github.com/RMNCLDYO/create-codex.git
+git clone https://github.com/ramonclaudio/create-codex.git
 cd create-codex
 npm install
 npm test
@@ -54,7 +54,7 @@ npm run lint    # TypeScript strict mode
 
 ## Issues
 
-Found a bug? [Open an issue](https://github.com/RMNCLDYO/create-codex/issues) with:
+Found a bug? [Open an issue](https://github.com/ramonclaudio/create-codex/issues) with:
 
 - Node version
 - Operating system

@@ -167,8 +167,8 @@ Contributions welcome! Please read [SECURITY.md](SECURITY.md) first, then:
 
 ## Links
 
-[**Issues**](https://github.com/RMNCLDYO/create-codex/issues) • [**Changelog**](https://github.com/RMNCLDYO/create-codex/blob/main/CHANGELOG.md) • [**AGENTS.md Docs**](https://agents.md) • [**Security**](SECURITY.md)
+[**Issues**](https://github.com/ramonclaudio/create-codex/issues) • [**Changelog**](https://github.com/ramonclaudio/create-codex/blob/main/CHANGELOG.md) • [**AGENTS.md Docs**](https://agents.md) • [**Security**](SECURITY.md)
 
 ## License
 
-MIT © [RMNCLDYO](https://github.com/RMNCLDYO)
+MIT © [Ramon Claudio](https://github.com/Ramon Claudio)
